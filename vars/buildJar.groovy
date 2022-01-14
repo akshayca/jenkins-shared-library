@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
 
 def call() {
-    bat 'mvn clean package'
+    sh 'mvn clean package'
 }
